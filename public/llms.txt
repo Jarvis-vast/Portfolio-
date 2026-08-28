@@ -1,0 +1,34 @@
+# Om Bhagwat — Digital Headquarters & Portfolio
+
+> Om Bhagwat: Founder, AI Entrepreneur, Business Builder.
+> Building businesses, systems, and products with AI.
+
+## Professional Summary
+Enterprise-focused AI Automation Consultant and Founder of Zelvora.studio. Specialist in designing and deploying intelligent multi-agent workflows, custom operations automation, and high-performance business process integration. Expert in optimizing operations pipelines, logistics frameworks, campaign rollouts, and custom Excel VBA/MIS automations to eliminate organizational friction.
+
+## Strategic Hierarchy
+1. Om Bhagwat: The Founder & System Architect
+2. Zelvora (zelvora.studio): Commercial AI Automation Agency
+3. Constant Client Acquisition: 9-Stage Systematic Revenue & Client Delivery Engine
+4. AI Products & Systems: Strive (Deployed), AmplifyLane (Deployed), H.U.L.K. OS (In Development), Micro-SaaS
+5. OM Ecosystem: Long-Term Connected Vision (Build Once. Reuse. Connect. Automate. Improve.)
+
+## Verified Projects & Links
+- Personal GitHub: https://github.com/Jarvis-vast
+- LinkedIn: https://www.linkedin.com/in/ombhagwat
+- Email: bhagwatom987@gmail.com
+- Strive (Deployed): https://strive-ai-platform-c9l7.vercel.app/ | Code: https://github.com/Jarvis-vast/strive-ai
+- AmplifyLane (Deployed): https://amplifylane-5o27crbf6-jarvis-vasts-projects.vercel.app/ | Code: https://github.com/Jarvis-vast/Amplifylane
+- Zelvora: AI-powered business systems and automation solutions
+
+## Verified Experience
+- Founder & Lead Architect — Zelvora (Present): Production n8n/Make automation pipelines integrated with LLMs.
+- Regional Manager — Skydot Courier: Decreased scheduling latency by 30% via automated dispatch models & fleet routing.
+- Systems Consultant — Independent System Development: H.U.L.K. OS framework & custom MIS/Excel VBA automation.
+
+## Academic Pedigree
+- PGPM in Marketing & Operations — IBS Mumbai (2024–2026)
+- Bachelor of Business Administration (BBA) — D.Y. Patil University (2021–2024)
+
+## Core Philosophy
+AI should make human work easier, faster, and more capable — not simply eliminate humans from the process.
