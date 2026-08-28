@@ -1,0 +1,6 @@
+{
+  "name": "Om Bhagwat — Portfolio",
+  "description": "Personal portfolio website for Om Bhagwat featuring cinematic HLS video CTA and liquid glass aesthetic.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
