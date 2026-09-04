@@ -32,6 +32,7 @@ import {
   Sliders,
   Code2,
   Terminal,
+  FileText,
 } from "lucide-react";
 import CtaFooter from "./components/CtaFooter";
 import HeroBackground from "./components/HeroBackground";
@@ -128,6 +129,32 @@ export default function App() {
   // 05. SELECTED WORK / PROJECTS
   const selectedProjects = [
     {
+      title: "LeadForge AI",
+      tagline: "B2B Lead Discovery & Multi-Parameter Enrichment Pipeline",
+      problem:
+        "Modern revenue and sales operations waste hours manually searching, verifying contact emails, and researching business prospects across fragmented platforms.",
+      solution:
+        "Architected an automated lead generation and enrichment platform that surfaces verified B2B contacts, checks deliverability, and stages high-intent prospects.",
+      role: "Creator & Developer",
+      status: "DEPLOYED",
+      icon: Target,
+      githubUrl: "https://github.com/Jarvis-vast/LeadForge-AI",
+      liveUrl: "https://leadforge-ai-ten-hazel.vercel.app/",
+    },
+    {
+      title: "QuoteFlow AI",
+      tagline: "Intelligent Quotation & Scope Estimation Engine",
+      problem:
+        "Manual quote generation and custom scope drafting slow down agency deal velocity, producing pricing inaccuracies and delayed proposals.",
+      solution:
+        "Engineered an interactive proposal generation engine that dynamically calculates multi-tier deliverables, calculates milestones, and outputs polished commercial scopes.",
+      role: "Creator & Developer",
+      status: "DEPLOYED",
+      icon: FileText,
+      githubUrl: "https://github.com/Jarvis-vast/QuoteFlow-AI",
+      liveUrl: "https://quote-flow-ai-rose.vercel.app/",
+    },
+    {
       title: "Strive",
       tagline: "AI-Powered Platform & Execution Architecture",
       problem:
@@ -138,7 +165,7 @@ export default function App() {
       status: "DEPLOYED",
       icon: Globe,
       githubUrl: "https://github.com/Jarvis-vast/strive-ai",
-      liveUrl: "https://strive-ai-platform-c9l7.vercel.app/",
+      liveUrl: "https://strive-ai-platform.vercel.app/",
     },
     {
       title: "AmplifyLane",
@@ -154,15 +181,17 @@ export default function App() {
       liveUrl: "https://amplifylane-5o27crbf6-jarvis-vasts-projects.vercel.app/",
     },
     {
-      title: "H.U.L.K. OS",
-      tagline: "High-Throughput Distributed Architecture",
+      title: "Enterprise Multi-Agent Middleware",
+      tagline: "Custom n8n & Make Automation Pipelines (Zelvora.Studio)",
       problem:
-        "Complex enterprise AI workloads require resilient orchestration across multiple LLMs without bottlenecking operational workflows.",
+        "Siloed SaaS applications and manual data entry resulted in hundreds of lost hours and fragmented customer data pipelines.",
       solution:
-        "Engineered distributed task-splitting and multi-agent coordination architecture capable of handling heavy computational loads.",
-      role: "Lead Systems Architect",
-      status: "IN DEVELOPMENT",
-      icon: Zap,
+        "Constructed production middleware workflows integrating CRM, databases, and LLM reasoning loops into a unified execution spine.",
+      role: "Lead Automation Architect",
+      status: "DEPLOYED",
+      icon: Workflow,
+      githubUrl: "https://github.com/Jarvis-vast/Zelvora.Studio",
+      liveUrl: "https://zelvorastudio.vercel.app/",
     },
     {
       title: "Dispatch & SLA Optimization Engine",
@@ -176,15 +205,15 @@ export default function App() {
       icon: Truck,
     },
     {
-      title: "Enterprise Multi-Agent Middleware",
-      tagline: "Custom n8n & Make Automation Pipelines (Zelvora)",
+      title: "H.U.L.K. OS",
+      tagline: "High-Throughput Distributed Architecture",
       problem:
-        "Siloed SaaS applications and manual data entry resulted in hundreds of lost hours and fragmented customer data pipelines.",
+        "Complex enterprise AI workloads require resilient orchestration across multiple LLMs without bottlenecking operational workflows.",
       solution:
-        "Constructed production middleware workflows integrating CRM, databases, and LLM reasoning loops into a unified execution spine.",
-      role: "Lead Automation Architect",
-      status: "BUILT",
-      icon: Workflow,
+        "Engineered distributed task-splitting and multi-agent coordination architecture capable of handling heavy computational loads.",
+      role: "Lead Systems Architect",
+      status: "IN DEVELOPMENT",
+      icon: Zap,
     },
     {
       title: "Automated MIS & Telemetry System",
@@ -216,10 +245,39 @@ export default function App() {
   const productConcepts = [
     {
       name: "LeadForge AI",
-      category: "Growth & Intelligence",
+      category: "Growth & Outbound",
       description: "Automated lead discovery and multi-parameter data enrichment pipeline for B2B operators.",
-      status: "Concept",
-      badge: "Concept",
+      status: "Deployed",
+      badge: "Live Product",
+      liveUrl: "https://leadforge-ai-ten-hazel.vercel.app/",
+      githubUrl: "https://github.com/Jarvis-vast/LeadForge-AI",
+    },
+    {
+      name: "QuoteFlow AI",
+      category: "Sales & Proposals",
+      description: "Intelligent quoting and proposal generation engine automating price calculations and scope estimations.",
+      status: "Deployed",
+      badge: "Live Product",
+      liveUrl: "https://quote-flow-ai-rose.vercel.app/",
+      githubUrl: "https://github.com/Jarvis-vast/QuoteFlow-AI",
+    },
+    {
+      name: "Strive",
+      category: "Operations & Workflows",
+      description: "AI-assisted execution environment enabling structured task workflows and live progress tracking.",
+      status: "Deployed",
+      badge: "Live Product",
+      liveUrl: "https://strive-ai-platform.vercel.app/",
+      githubUrl: "https://github.com/Jarvis-vast/strive-ai",
+    },
+    {
+      name: "AmplifyLane",
+      category: "Media & Growth",
+      description: "Automated growth and digital campaign orchestration platform with high-velocity scheduling.",
+      status: "Deployed",
+      badge: "Live Product",
+      liveUrl: "https://amplifylane-5o27crbf6-jarvis-vasts-projects.vercel.app/",
+      githubUrl: "https://github.com/Jarvis-vast/Amplifylane",
     },
     {
       name: "WappFlow AI",
@@ -887,20 +945,31 @@ export default function App() {
                   </p>
 
                   <div className="flex flex-wrap items-center gap-4">
-                    <button
-                      onClick={() => setIsContactOpen(true)}
+                    <a
+                      href="https://zelvorastudio.vercel.app/"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="bg-white text-black rounded-full px-7 py-3 text-sm font-medium hover:bg-white/90 transition-colors font-body cursor-pointer flex items-center gap-2 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
-                      aria-haspopup="dialog"
-                      aria-expanded={isContactOpen}
+                      aria-label="Visit live deployed Zelvora.Studio website"
                     >
-                      EXPLORE ZELVORA
-                      <ArrowRight className="w-4 h-4" />
-                    </button>
+                      <span>VISIT ZELVORA.STUDIO</span>
+                      <ArrowUpRight className="w-4 h-4" />
+                    </a>
+                    <a
+                      href="https://github.com/Jarvis-vast/Zelvora.Studio"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="liquid-glass-strong rounded-full px-6 py-3 text-sm font-medium text-white hover:bg-white/10 transition-all font-body cursor-pointer flex items-center gap-2 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/80"
+                      aria-label="View Zelvora.Studio source code on GitHub"
+                    >
+                      <Github className="w-4 h-4" />
+                      <span>VIEW CODE</span>
+                    </a>
                     <button
                       onClick={() => scrollToSection("acquisition")}
-                      className="liquid-glass-strong rounded-full px-7 py-3 text-sm font-medium text-white hover:bg-white/10 transition-all font-body cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/80"
+                      className="text-xs uppercase tracking-wider text-white/50 hover:text-white transition-colors px-4 py-3 font-body cursor-pointer focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-white/60"
                     >
-                      View Revenue Engine
+                      Revenue Engine &rarr;
                     </button>
                   </div>
                 </div>
@@ -1052,6 +1121,35 @@ export default function App() {
                       {prod.description}
                     </p>
                   </div>
+
+                  {("liveUrl" in prod || "githubUrl" in prod) && (
+                    <div className="pt-5 mt-6 border-t border-white/10 flex flex-wrap items-center gap-2">
+                      {"liveUrl" in prod && prod.liveUrl && (
+                        <a
+                          href={prod.liveUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="px-3.5 py-1.5 rounded-full bg-white text-black font-medium hover:bg-white/90 transition-colors flex items-center gap-1 text-[11px] tracking-wide focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
+                          aria-label={`View live deployed application for ${prod.name}`}
+                        >
+                          <span>VIEW LIVE</span>
+                          <ArrowUpRight className="w-3 h-3" />
+                        </a>
+                      )}
+                      {"githubUrl" in prod && prod.githubUrl && (
+                        <a
+                          href={prod.githubUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="px-3.5 py-1.5 rounded-full bg-white/5 border border-white/15 text-white/80 hover:text-white hover:bg-white/10 transition-colors flex items-center gap-1 text-[11px] tracking-wide focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/80"
+                          aria-label={`View GitHub repository for ${prod.name}`}
+                        >
+                          <Github className="w-3 h-3" />
+                          <span>CODE</span>
+                        </a>
+                      )}
+                    </div>
+                  )}
                 </div>
               ))}
             </div>

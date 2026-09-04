@@ -10,16 +10,19 @@ Enterprise-focused AI Automation Consultant and Founder of Zelvora.studio. Speci
 1. Om Bhagwat: The Founder & System Architect
 2. Zelvora (zelvora.studio): Commercial AI Automation Agency
 3. Constant Client Acquisition: 9-Stage Systematic Revenue & Client Delivery Engine
-4. AI Products & Systems: Strive (Deployed), AmplifyLane (Deployed), H.U.L.K. OS (In Development), Micro-SaaS
+4. AI Products & Systems: LeadForge AI (Deployed), QuoteFlow AI (Deployed), Strive (Deployed), AmplifyLane (Deployed), H.U.L.K. OS (In Development), Micro-SaaS
 5. OM Ecosystem: Long-Term Connected Vision (Build Once. Reuse. Connect. Automate. Improve.)
 
 ## Verified Projects & Links
 - Personal GitHub: https://github.com/Jarvis-vast
 - LinkedIn: https://www.linkedin.com/in/ombhagwat
 - Email: bhagwatom987@gmail.com
-- Strive (Deployed): https://strive-ai-platform-c9l7.vercel.app/ | Code: https://github.com/Jarvis-vast/strive-ai
+- LeadForge AI (Deployed): https://leadforge-ai-ten-hazel.vercel.app/ | Code: https://github.com/Jarvis-vast/LeadForge-AI
+- QuoteFlow AI (Deployed): https://quote-flow-ai-rose.vercel.app/ | Code: https://github.com/Jarvis-vast/QuoteFlow-AI
+- Strive (Deployed): https://strive-ai-platform.vercel.app/ | Code: https://github.com/Jarvis-vast/strive-ai
 - AmplifyLane (Deployed): https://amplifylane-5o27crbf6-jarvis-vasts-projects.vercel.app/ | Code: https://github.com/Jarvis-vast/Amplifylane
-- Zelvora: AI-powered business systems and automation solutions
+- Zelvora.Studio (Deployed): https://zelvorastudio.vercel.app/ | Code: https://github.com/Jarvis-vast/Zelvora.Studio
+- Zelvora Agency: AI-powered business systems and automation solutions
 
 ## Verified Experience
 - Founder & Lead Architect — Zelvora (Present): Production n8n/Make automation pipelines integrated with LLMs.
